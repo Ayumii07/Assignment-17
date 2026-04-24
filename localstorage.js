@@ -35,3 +35,17 @@ function clearData() {
 }
 // Load data when page reloads
 showData();
+// What is localStorage?
+// localStorage is a browser storage that stores data as key-value pairs.
+// Data stays even after closing the browser until manually deleted.
+
+// Difference between localStorage and sessionStorage:
+// localStorage: Data is permanent and shared across tabs.
+// sessionStorage: Data is temporary and deleted when the tab is closed.
+
+// When browser storage is useful:
+// - Saving user preferences (theme, language)
+// - Storing form data temporarily
+// - Keeping simple user info or cart data
+// - Reducing repeated server requests
+// Note: Do not store sensitive data like passwords.
